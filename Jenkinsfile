@@ -21,6 +21,6 @@ node() {
     }
   }
   stage('updateIntegrationArtifactConfiguration Command') {
-		updateIntegrationArtifactConfiguration script: this
+		integrationArtifactUpdateConfiguration script: this
   }
 }
