@@ -3,12 +3,9 @@ general:
   iflowVersion: 1.0.1
 
 steps:
-  integrationArtifactUpdateConfiguration:
+  integrationArtifactGetMPLStatus:
     cpiCredentialsId: roverpocOauthCred
-    integrationFlowId: httpdynamicUrls
-    integrationFlowVersion: 2.1
+    integrationFlowId: iflow1
     platform: cf
     host: https://roverpoc.it-accd002.cfapps.sap.hana.ondemand.com
     oAuthTokenProviderUrl: https://roverpoc.authentication.sap.hana.ondemand.com/oauth/token
-    parameterKey: myheader
-    parameterValue: test11
