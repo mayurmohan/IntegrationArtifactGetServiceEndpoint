@@ -20,7 +20,7 @@ node() {
        
     }
   }
-  stage('updateIntegrationArtifactConfiguration Command') {
+  stage('integrationArtifactUpdateConfiguration Command') {
 		integrationArtifactUpdateConfiguration script: this
   }
 }
