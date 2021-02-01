@@ -3,7 +3,7 @@ general:
   iflowVersion: 1.0.1
 
 steps:
-  integrationArtifactGetMPLStatus:
+  integrationArtifactGetMplStatus:
     cpiCredentialsId: roverpocOauthCred
     integrationFlowId: flow1
     platform: cf
