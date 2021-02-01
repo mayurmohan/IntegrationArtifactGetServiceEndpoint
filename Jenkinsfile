@@ -21,6 +21,9 @@ node() {
     }
   }
   stage('integrationArtifactUpdateConfiguration Command') {
+	  	 setupCommonPipelineEnvironment script: this
 		integrationArtifactGetMplStatus script: this
+	  	print "status:" 
+	  	print  integrationArtifactGetMplStatusCommonPipelineEnvironment.iFlowMplStatus
   }
 }
