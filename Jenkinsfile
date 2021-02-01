@@ -21,6 +21,6 @@ node() {
     }
   }
   stage('integrationArtifactUpdateConfiguration Command') {
-		integrationArtifactGetMPLStatus script: this
+		integrationArtifactGetMplStatus script: this
   }
 }
