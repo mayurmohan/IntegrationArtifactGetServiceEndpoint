@@ -3,7 +3,7 @@ general:
   iflowVersion: 1.0.1
 
 steps:
-  updateIntegrationArtifactConfiguration:
+  integrationArtifactUpdateConfiguration:
     cpiCredentialsId: roverpocOauthCred
     integrationFlowId: httpdynamicUrls
     integrationFlowVersion: 2.1
