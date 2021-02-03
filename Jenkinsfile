@@ -24,6 +24,6 @@ node() {
 	  	 setupCommonPipelineEnvironment script: this
 		integrationArtifactGetMplStatus script: this
 	  	print "status:" 
-	  	print  commonPipelineEnvironment.custom.iFlowMplStatus
+	  	print  commonPipelineEnvironment.getValue("iFlowMplStatus")
   }
 }
