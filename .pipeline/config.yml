@@ -5,6 +5,7 @@ general:
 steps:
   integrationArtifactGetServiceEndpoint:
     cpiCredentialsId: roverpocOauthCred
-    integrationFlowId: CPI_IFlow_Call_using_Cert
+    integrationFlowId: flow1
+    platform: cf
     host: https://roverpoc.it-accd002.cfapps.sap.hana.ondemand.com
     oAuthTokenProviderUrl: https://roverpoc.authentication.sap.hana.ondemand.com/oauth/token
