@@ -20,10 +20,10 @@ node() {
        
     }
   }
-  stage('IntegrationArtifactGetServiceEndpoint Command') {
+  stage('integrationArtifactGetServiceEndpoint Command') {
 	  	setupCommonPipelineEnvironment script: this
+	  	print "status:"
 		integrationArtifactGetServiceEndpoint script: this
-	  	print "status:" 
 	  	print  commonPipelineEnvironment.getValue("iFlowServiceEndpoint")
   }
 }
