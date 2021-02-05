@@ -3,7 +3,7 @@ general:
   iflowVersion: 1.0.1
 
 steps:
-  IntegrationArtifactGetServiceEndpoint:
+  integrationArtifactGetServiceEndpoint:
     cpiCredentialsId: roverpocOauthCred
     integrationFlowId: CPI_IFlow_Call_using_Cert
     host: https://roverpoc.it-accd002.cfapps.sap.hana.ondemand.com
