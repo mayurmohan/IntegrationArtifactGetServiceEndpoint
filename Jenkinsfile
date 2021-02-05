@@ -22,8 +22,8 @@ node() {
   }
   stage('integrationArtifactUpdateConfiguration Command') {
 	  	 setupCommonPipelineEnvironment script: this
-		integrationArtifactGetMplStatus script: this
+		IntegrationArtifactGetServiceEndpoint script: this
 	  	print "status:" 
-	  	print  commonPipelineEnvironment.getValue("iFlowMplStatus")
+	  	print  commonPipelineEnvironment.getValue("iFlowServiceEndpoint")
   }
 }
