@@ -7,8 +7,8 @@ node() {
   }
   stage('integrationArtifactGetServiceEndpoint Command') {
 	  	setupCommonPipelineEnvironment script: this
-	  	print "status:"
+	  	print "Service Endpoint:"
 		integrationArtifactGetServiceEndpoint script: this
-	  	print  commonPipelineEnvironment.getValue("custom/integrationFlowServiceEndpoint")
+	  	print  commonPipelineEnvironment.getValue("integrationFlowServiceEndpoint")
   }
 }
