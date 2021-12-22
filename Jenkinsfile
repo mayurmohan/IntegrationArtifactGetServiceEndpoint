@@ -9,6 +9,6 @@ node() {
 	  	setupCommonPipelineEnvironment script: this
 	  	print "status:"
 		integrationArtifactGetServiceEndpoint script: this
-	  	print  commonPipelineEnvironment.getValue("iFlowServiceEndpoint")
+	  	print  commonPipelineEnvironment.getValue("custom/integrationFlowServiceEndpoint")
   }
 }
